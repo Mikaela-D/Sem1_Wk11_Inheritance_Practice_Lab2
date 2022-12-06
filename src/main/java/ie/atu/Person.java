@@ -31,9 +31,7 @@ public class Person {
         this.address = address;
     }
 
-    public String getPhone() {
-        return phone;
-    }
+    public String getPhone() { return phone; }
 
     public void setPhone(String phone) {
         this.phone = phone;
@@ -41,6 +39,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Name : " + name + " " + "Address : " + address + " " + "Phone : " + phone;
+        return "\nName : " + name + " " + "  Address : " + address + " " + "  Phone : " + phone;
     }
 }
